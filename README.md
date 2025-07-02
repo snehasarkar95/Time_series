@@ -14,7 +14,7 @@ graph TD
     C3 --> C4[Embed via HuggingFace]
     C4 --> C5[Store in VectorStore (ChromaDB)]
 
-    %% upload_docs.py (assumed similar to upload_urls)
+    %% upload_docs.py
     B2 --> D1[Load Files (PDF/DOCX)]
     D1 --> D2[Split Text Chunks]
     D2 --> D3[Embed via HuggingFace]
